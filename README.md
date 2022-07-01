@@ -5,4 +5,4 @@ A tool to use the Discord search function on messages, but through all your DMs 
 Nodejs.
 
 # use program
-Put your token in the config file, and run it lol
+Put your token in the config file, and run it lol.
