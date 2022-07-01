@@ -2,7 +2,6 @@
 
 const axios = require("axios")
 const fs = require("fs")
-const { mainModule } = require("process")
 
 /*
 
