@@ -8,5 +8,5 @@ module.exports = {
     searchParams: {
         content: "hello man" // content to search in messages
     },
-    discordURI: "https://cdn.discord.com" // https://cdn.discord.com | https://ptb.discord.com | https://canary.discord.com
+    discordURI: "https://discord.com" // https://ptb.discord.com | https://canary.discord.com
 }
