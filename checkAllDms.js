@@ -60,7 +60,7 @@ async function main() {
         console.log(`[${parseInt(i)+1}/${allDmsChannels.length}] Getting channel ${chanID}`)
         console.log(`Waiting ${(configuration.sleepBetween/1000).toFixed(1)}s ...`)
         await sleep(configuration.sleepBetween)
-        let response = (await axios.get(`${configuration.discordURI}/api/v9/channels/966379788866572378/messages/search?content=${configuration.searchParams.content}`, {
+        let response = (await axios.get(`${configuration.discordURI}/api/v9/channels/${chanID}/messages/search?content=${configuration.searchParams.content}`, {
             headers: {
                 Authorization: configuration.DiscordToken
             }
